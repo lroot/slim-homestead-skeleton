@@ -15,3 +15,5 @@ Laravel Homestead is an official, pre-packaged Vagrant box that provides you a w
 Homestead runs on any Windows, Mac, or Linux system, and includes the Nginx web server, PHP 7.2, MySQL, Postgres, Redis, Memcached, Node, and all of the other goodies you need to develop amazing Laravel applications.
 
 Official documentation [is located here](https://laravel.com/docs/homestead).
+
+To connect to your MySQL or PostgreSQL database from your host machine's database client, you should connect to 127.0.0.1 and port 33060 (MySQL) or 54320 (PostgreSQL). The username and password for both databases is homestead / secret.
