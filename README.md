@@ -2,6 +2,13 @@
 
 An integrated set of frameworks to jump start development. 
 
+**Getting Started**
+
+1. Edit Homestead.yaml
+2. Edit local hosts to point hostname to IP defined in Homestead.yaml
+3. `composer install`
+4. `vagrant up`
+
 ## Slim Framework 3 Skeleton Application
 
 Use this skeleton application to quickly setup and start working on a new Slim Framework 3 application. This application uses the latest Slim 3 with the PHP-View template renderer. It also uses the Monolog logger.
